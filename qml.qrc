@@ -9,5 +9,6 @@
         <file>MainMenu.qml</file>
         <file>LoadingImageItem.qml</file>
         <file>Loading.qml</file>
+        <file>RequestFunctions.js</file>
     </qresource>
 </RCC>
