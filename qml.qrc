@@ -7,5 +7,7 @@
         <file>TileButton.qml</file>
         <file>Recordings.qml</file>
         <file>MainMenu.qml</file>
+        <file>LoadingImageItem.qml</file>
+        <file>Loading.qml</file>
     </qresource>
 </RCC>
