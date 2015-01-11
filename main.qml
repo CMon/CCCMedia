@@ -21,6 +21,15 @@ ApplicationWindow {
         }
     }
 
+    toolBar: ToolBar {
+        ToolButton {
+            id: backButton
+            anchors.verticalCenter: Qt.AlignHCenter
+            text: qsTr("Back")
+            onClicked: mainView.state = ViewState.Main
+        }
+    }
+
     Rectangle {
         id: mainView
         anchors.fill: parent

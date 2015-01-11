@@ -18,7 +18,6 @@ Rectangle {
                 id: backButton
                 height: parent.height
 
-                text: qsTr("Back")
 
                 onClicked: root.back()
             }
