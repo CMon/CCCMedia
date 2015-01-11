@@ -22,9 +22,11 @@ ApplicationWindow {
     }
 
     toolBar: ToolBar {
+        visible: mainView.state != ViewState.Main
+
         ToolButton {
             id: backButton
-            anchors.verticalCenter: Qt.AlignHCenter
+            height: parent.height
             text: qsTr("Back")
             onClicked: mainView.state = ViewState.Main
         }
