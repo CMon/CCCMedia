@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Conferences.qml</file>
+        <file>Events.qml</file>
+        <file>Settings.qml</file>
+        <file>TileButton.qml</file>
+        <file>Recordings.qml</file>
+        <file>SubPage.qml</file>
+        <file>MainMenu.qml</file>
+    </qresource>
+</RCC>
