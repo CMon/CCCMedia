@@ -1,4 +1,4 @@
 import QtQuick 2.0
 
-SubPage {
+Rectangle {
 }

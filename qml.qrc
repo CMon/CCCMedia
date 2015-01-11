@@ -6,7 +6,6 @@
         <file>Settings.qml</file>
         <file>TileButton.qml</file>
         <file>Recordings.qml</file>
-        <file>SubPage.qml</file>
         <file>MainMenu.qml</file>
     </qresource>
 </RCC>

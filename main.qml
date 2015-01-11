@@ -53,32 +53,27 @@ ApplicationWindow {
             visible: false
             anchors.fill: parent
             color: "transparent"
-
-            onBack: mainView.state = ViewState.Main
         }
 
         Events {
             id: events
             visible: false
             anchors.fill: parent
-
-            onBack: mainView.state = ViewState.Main
+            color: "transparent"
         }
 
         Recordings {
             id: recordings
             visible: false
             anchors.fill: parent
-
-            onBack: mainView.state = ViewState.Main
+            color: "transparent"
         }
 
         Settings {
             id: settings
             visible: false
             anchors.fill: parent
-
-            onBack: mainView.state = ViewState.Main
+            color: "transparent"
         }
 
         onStateChanged: {
@@ -97,5 +92,4 @@ ApplicationWindow {
             State { name: ViewState.Settings }
         ]
     }
-
 }
