@@ -54,7 +54,7 @@ ApplicationWindow {
             id: conferences
             visible: false
             anchors.fill: parent
-            color: "transparent"
+//            color: "transparent"
         }
 
         Events {
