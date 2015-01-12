@@ -3,6 +3,7 @@ import "RequestFunctions.js" as RF
 
 Item {
     id: conferencesModel
+    property variant model: listModel
     readonly property url apiUrl: "http://api.media.ccc.de/public/conferences"
     property bool loading: false
 
