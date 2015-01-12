@@ -20,6 +20,13 @@ Component {
             opacity: index % 2 ? 0.2 : 0.3
         }
 
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                console.log("Open Conference: ", url)
+            }
+        }
+
         Row {
             x: 10
             height: 50
