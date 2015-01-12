@@ -12,5 +12,6 @@
         <file>RequestFunctions.js</file>
         <file>ConferencesModel.qml</file>
         <file>ConferencesDelegate.qml</file>
+        <file>assets/images/loading.png</file>
     </qresource>
 </RCC>
