@@ -2,6 +2,8 @@ import QtQuick 2.4
 import QtQuick.Controls 1.3
 import CCCMedia 1.0
 
+import "Conference"
+
 ApplicationWindow {
     title: qsTr("CCC media")
     width: 640

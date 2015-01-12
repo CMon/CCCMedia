@@ -1,17 +1,17 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>Conferences.qml</file>
+        <file>assets/images/loading.png</file>
+        <file>Conference/ConferencesDelegate.qml</file>
+        <file>Conference/ConferencesModel.qml</file>
+        <file>Conference/Conferences.qml</file>
         <file>Events.qml</file>
-        <file>Settings.qml</file>
-        <file>TileButton.qml</file>
-        <file>Recordings.qml</file>
-        <file>MainMenu.qml</file>
         <file>LoadingImageItem.qml</file>
         <file>Loading.qml</file>
+        <file>MainMenu.qml</file>
+        <file>main.qml</file>
+        <file>Recordings.qml</file>
         <file>RequestFunctions.js</file>
-        <file>ConferencesModel.qml</file>
-        <file>ConferencesDelegate.qml</file>
-        <file>assets/images/loading.png</file>
+        <file>Settings.qml</file>
+        <file>TileButton.qml</file>
     </qresource>
 </RCC>

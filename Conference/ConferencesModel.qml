@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import "RequestFunctions.js" as RF
+import "../RequestFunctions.js" as RF
 
 Item {
     id: conferencesModel
