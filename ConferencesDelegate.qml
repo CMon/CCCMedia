@@ -5,8 +5,7 @@ Component {
 
     Item {
         id: conference
-        width: 60
-//        width: conferenceList.width
+        width: conferenceList.width
         height: 60
 
         // A simple rounded rectangle for the background
