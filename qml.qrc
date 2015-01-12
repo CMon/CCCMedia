@@ -13,5 +13,8 @@
         <file>RequestFunctions.js</file>
         <file>Settings.qml</file>
         <file>TileButton.qml</file>
+        <file>Conference/Conference.qml</file>
+        <file>Conference/ConferenceModel.qml</file>
+        <file>Conference/ConferenceDelegate.qml</file>
     </qresource>
 </RCC>

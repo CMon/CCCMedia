@@ -30,7 +30,13 @@ ApplicationWindow {
             id: backButton
             height: parent.height
             text: qsTr("Back")
-            onClicked: mainView.state = ViewState.Main
+            onClicked: {
+                if (mainView.state == ViewState.Conference) {
+                    mainView.state = ViewState.Conferences ;
+                } else {
+                    mainView.state = ViewState.Main
+                }
+            }
         }
     }
 
@@ -52,11 +58,23 @@ ApplicationWindow {
             onSettings:    mainView.state = ViewState.Settings
         }
 
+        Conference {
+            id: conference
+            visible: false
+            anchors.fill: parent
+            color: "transparent"
+        }
+
         Conferences {
             id: conferences
             visible: false
             anchors.fill: parent
             color: "transparent"
+
+            onConferenceSelected: {
+                conference.conferenceUrl = url
+                mainView.state = ViewState.Conference
+            }
         }
 
         Events {
@@ -82,6 +100,7 @@ ApplicationWindow {
 
         onStateChanged: {
             mainMenu.visible    = state == ViewState.Main;
+            conference.visible  = state == ViewState.Conference;
             conferences.visible = state == ViewState.Conferences;
             events.visible      = state == ViewState.Events;
             recordings.visible  = state == ViewState.Recordings;
@@ -90,6 +109,7 @@ ApplicationWindow {
 
         states: [
             State { name: ViewState.Main },
+            State { name: ViewState.Conference },
             State { name: ViewState.Conferences },
             State { name: ViewState.Events },
             State { name: ViewState.Recordings },

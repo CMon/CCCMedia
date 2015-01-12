@@ -8,6 +8,7 @@ class ViewState : public QObject
 public:
 	enum State {
 		Main,
+		Conference,
 		Conferences,
 		Events,
 		Recordings,
