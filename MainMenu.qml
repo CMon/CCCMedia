@@ -3,7 +3,7 @@ import QtQuick 2.0
 Rectangle {
     id: root
 
-    signal conference
+    signal conferences
     signal events
     signal recordings
     signal settings
@@ -18,7 +18,7 @@ Rectangle {
             width: tileWidth
             height: tileHeight
 
-            onClicked: root.conference()
+            onClicked: root.conferences()
         }
 
         TileButton {

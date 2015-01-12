@@ -46,10 +46,10 @@ ApplicationWindow {
             anchors.fill: parent
             color: "transparent"
 
-            onConference: mainView.state = ViewState.Conferences
-            onEvents:     mainView.state = ViewState.Events
-            onRecordings: mainView.state = ViewState.Recordings
-            onSettings:   mainView.state = ViewState.Settings
+            onConferences: mainView.state = ViewState.Conferences
+            onEvents:      mainView.state = ViewState.Events
+            onRecordings:  mainView.state = ViewState.Recordings
+            onSettings:    mainView.state = ViewState.Settings
         }
 
         Conferences {

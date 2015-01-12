@@ -3,11 +3,12 @@ import QtQuick 2.0
 import "../"
 
 Component {
-    id: conferenceDelegate
+    id: conferencesDelegate
+
 
     Item {
-        id: conference
-        width: conferenceList.width
+        id: conferences
+        width: conferencesList.width
         height: 60
 
         // A simple rounded rectangle for the background

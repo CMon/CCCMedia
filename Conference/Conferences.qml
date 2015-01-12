@@ -5,17 +5,17 @@ Rectangle {
     height: 10
 
     ConferencesModel {
-        id: conferenceModel
+        id: conferencesModel
     }
     ConferencesDelegate {
-        id: conferenceDelegate
+        id: conferencesDelegate
     }
     ListView {
-        id: conferenceList
+        id: conferencesList
         anchors.fill: parent
 
-        model: conferenceModel.model
-        delegate: conferenceDelegate
+        model: conferencesModel.model
+        delegate: conferencesDelegate
         cacheBuffer: 100
 
 //        Scrollbar {
