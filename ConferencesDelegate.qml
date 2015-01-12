@@ -22,7 +22,7 @@ Component {
 
         Row {
             x: 10
-            height: 48
+            height: 50
             width: parent.width
             spacing: 5
             anchors.verticalCenter: parent.verticalCenter
@@ -31,16 +31,14 @@ Component {
                 id: image
                 width: parent.height
                 height: parent.height
+                anchors.verticalCenter: parent.verticalCenter
                 source: logo_url
             }
 
             Text {
                 id: txt
                 x: 2
-                text: '<html>Foo:' +
-                      acronym + '<br>' +
-                      title + '<br>' +
-                      '</html>'
+                text: title
                 textFormat: Qt.RichText
                 color: "white"
                 style: Text.Raised
