@@ -1,8 +1,11 @@
 import QtQuick 2.0
 
 Rectangle {
+    id: conferencesComponent
     width: 10
     height: 10
+
+    signal conferenceSelected(string url)
 
     ConferencesModel {
         id: conferencesModel

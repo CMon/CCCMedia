@@ -5,7 +5,6 @@ import "../"
 Component {
     id: conferencesDelegate
 
-
     Item {
         id: conferences
         width: conferencesList.width
@@ -25,9 +24,7 @@ Component {
 
         MouseArea {
             anchors.fill: parent
-            onClicked: {
-                console.log("Open Conference: ", url)
-            }
+            onClicked: conferencesComponent.conferenceSelected(url)
         }
 
         Row {
